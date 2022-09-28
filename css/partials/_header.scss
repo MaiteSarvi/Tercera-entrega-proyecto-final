@@ -1,0 +1,32 @@
+header {
+    .logomenu {
+        background: $Color2;
+        padding: 0px 65px 0px 65px;
+        display: flex;
+        justify-content: space-between;
+
+        &__menu {
+            display: inline-block;
+            margin: 42px 10px 0 10px; 
+            
+            li {
+                display: inline;
+                margin-right: 10px;
+                margin-left: 20px;
+                list-style-type: none;
+                font-family: $MonoMedium;
+                letter-spacing: 2px;
+                font-size: 15px;}
+               
+            a {
+                    color: $Color3;
+                    text-decoration: none;}
+                    
+        }
+        
+        .select {
+            border: none;
+            border-radius: 5px;
+        }
+    }
+}
